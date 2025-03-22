@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+    <record model="ir.module.category" id="inoc_adobesign_module_category">
+      <field name="name">Adobesign</field>
+    </record>
+    <record model="res.groups" id="inoc_adobesign_group_user">
+      <field name="name">User: Own Documents Only</field>
+      <field name="category_id" ref="inoc_adobesign_module_category"/>
+      <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+    <record model="res.groups" id="inoc_adobesign_group_admin">
+      <field name="name">Administrator</field>
+      <field name="category_id" ref="inoc_adobesign_module_category"/>
+      <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+      <field name="users" eval="[(4, ref('base.user_admin'))]"/>
+    </record>
+  </data>
+</odoo>
