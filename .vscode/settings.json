@@ -8,6 +8,8 @@
     }
   },
   "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.autoClosingBrackets": "never",
+    "files.trimFinalNewlines": false
   }
 }
