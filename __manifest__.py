@@ -5,7 +5,8 @@
         """,
     "description": """
         Inoc Base Module
-        Initializes inoc modules and create a settings sub menu. 
+        Initializes inoc modules and create inoc app settings menu.
+        Add legal address type in contacts
     """,
     "author": "Jofil Inoc Baring <jofil.baring@gmail.com>",
     "website": "https://inoc.me",
@@ -19,6 +20,7 @@
     "depends": ["base", "mail"],
     "data": [
         "views/res_config_settings_views.xml",
+        "views/res_partner_views.xml",
     ],
     "application": False,
     "auto_install": True,

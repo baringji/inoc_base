@@ -1,19 +1,9 @@
-## Scopes
+# Inoc Base
 
-user_login:account
-agreement_read:account
-agreement_send:account
-agreement_write:account
-library_read:account
-library_write:account
-widget_read:account
-widget_write:account
-workflow_read:account
-workflow_write:account
+Base module for inoc modules.
 
-user_login:account agreement_read:account agreement_send:account agreement_write:account library_read:account library_write:account widget_read:account widget_write:account 
+## Features
 
-Bearer 3AAABLblqZhB2-xWHF_W2_VM4m1voWFvnBRG4D9TmAD4sq3gBZ5bx45Mj6hdaALYWk715sCQWGIlfMpGVs19kjWMmcGuOBRfO
+- Create inoc App Settings
+- Add Legal Address type in contacts
 
-Swagger
-Bearer 3AAABLblqZhDqxzTeYTXf3C5C27IeLJXJM8oL3Uz05Y5JhJl65txML3uzHQinK78ymV041u7SrFqIWekipBEYu0Cwaee190sa
